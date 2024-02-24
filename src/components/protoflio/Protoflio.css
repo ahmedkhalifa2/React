@@ -1,0 +1,43 @@
+.clr,.clr2{
+    clear: both;
+}
+.portfolio{
+    margin: 30px;
+
+}
+.portfolio h1{
+    font-size: 25px;
+}
+.portfolio .row1 div,.portfolio .row2 div{
+    width: 30%;
+    float: left;
+    background-color: aquamarine;
+    margin-right: 3%;
+    height: 100px;
+    text-align: center;
+   position: relative;
+}
+.portfolio .row1{
+    margin-bottom: 30px;
+}
+.portfolio .row1 p{
+    position: relative;
+ }
+.portfolio .row1 p::after{
+   content: "";
+   width: 80%;
+   height: 2px;
+   position: absolute;
+   background-color: black;
+   bottom: -12px;
+   right: 8px;
+   
+}
+.portfolio .row2{
+    margin-top: 30px;
+}
+.portfolio .row1 div p,.portfolio .row2 div p{
+   position: absolute;
+    top: 30%;
+    left: 38%;
+}

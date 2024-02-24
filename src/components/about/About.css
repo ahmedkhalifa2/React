@@ -1,0 +1,27 @@
+.about{
+    /* float: left; */
+    padding: 65px;
+    padding-top: 0;
+    margin: 50px 0;
+}
+.about .headAbout{
+    width: 20%;
+    float: left;
+    font-size: 25px;
+    padding-top: 0;
+    margin-top: -10;
+}
+.about .Acontent{
+    width: 75%;
+    float: left;
+}
+.about .Acontent p{
+    line-height: 1.5;
+}
+.about .Acontent button{
+    padding: 8px;
+    background-color: black;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}

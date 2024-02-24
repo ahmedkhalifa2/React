@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url("../../../public/download.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+   height: 500px;
+   position: relative;
+}
+header img{
+    height: 100%;
+}
+header .Hcontent{
+    color: white;
+    position: absolute;
+    top: 70px;
+    left: 108px;
+    text-align: center;
+}
+header .Hcontent button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px;
+}
